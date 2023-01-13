@@ -1,0 +1,37 @@
+{
+  "name": "cz-jira-smart-emoji",
+  "version": "1.0.0",
+  "description": "Forked from moogsG/cz-jira-smart-emoji. Commitizen adapter formatting commit messages using emojis with jira smart commits",
+  "author": "RoySung",
+  "license": "MIT",
+  "repository": "RoySung/cz-jira-smart-emoji",
+  "main": "index.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "files": [
+    "index.js",
+    "lib/types.json"
+  ],
+  "keywords": [
+    "commitizen",
+    "adapter",
+    "emoji"
+  ],
+  "config": {
+    "commitizen": {
+      "path": "./index.js"
+    }
+  },
+  "dependencies": {
+    "@matti-o7/inquirer-maxlength-input-prompt": "^1.0.1",
+    "cli-truncate": "^1.0.0",
+    "fuse.js": "^3.4.5",
+    "home-dir": "^1.0.0",
+    "inquirer-autocomplete-prompt": "^0.12.0",
+    "pad": "^2.3.0",
+    "prettier": "^1.18.2",
+    "read-pkg-up": "^7.0.1",
+    "wrap-ansi": "^3.0.0"
+  }
+}
