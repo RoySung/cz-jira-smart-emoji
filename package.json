@@ -1,6 +1,6 @@
 {
   "name": "cz-jira-smart-emoji",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Forked from moogsG/cz-jira-smart-emoji. Commitizen adapter formatting commit messages using emojis with jira smart commits",
   "author": "RoySung",
   "license": "MIT",
