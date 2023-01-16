@@ -1,43 +1,43 @@
 [
   {
     "emoji": "🎨",
-    "code": "🎨style:",
+    "code": "🎨style",
     "description": "Improving structure / format of the code.",
     "name": "style"
   },
   {
     "emoji": "🐛",
-    "code": "🐛fix:",
+    "code": "🐛fix",
     "description": "Fixing a bug.",
     "name": "fix"
   },
   {
     "emoji": "✨",
-    "code": "✨feat:",
+    "code": "✨feat",
     "description": "Introducing new features.",
     "name": "feature"
   },
   {
     "emoji": "✅",
-    "code": "✅test:",
+    "code": "✅test",
     "description": "Adding tests.",
     "name": "test"
   },
   {
     "emoji": "🏭",
-    "code": "🏭refactor:",
+    "code": "🏭refactor",
     "description": "Refactoring code.",
     "name": "refactor"
   },
   {
     "emoji": "📝",
-    "code": "📝docs:",
+    "code": "📝docs",
     "description": "Writing docs.",
     "name": "docs"
   },
   {
     "emoji": "🎨",
-    "code": "🎨ui:",
+    "code": "🎨ui",
     "description": "Updating the UI and style files.",
     "name": "ui"
   }

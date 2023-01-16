@@ -19,7 +19,7 @@ const defaultConfig = {
   symbol: false,
   skipQuestions: [''],
   subjectMaxLength: 75,
-  conventional: false
+  conventional: true
 }
 
 let jiraTicket;
@@ -75,7 +75,7 @@ function formatScope(scope) {
 
 function formatHead({ type, scope, issues, workflow, subject, time, comment }, config) {
   const prelude = config.conventional
-    ? `${type.name}${formatScope(scope)}: ${type.emoji}`
+    ? `${type.emoji}${formatScope(scope)}:`
     : `${type.emoji} ${formatScope(scope)} `
   return `${prelude} ${subject}`
 }
@@ -199,9 +199,9 @@ function format(answers) {
   const head = truncate(answers.subject, columns)
   const body = wrap(answers.body || '', columns)
 
-  return [head, body]
+  return [body, head]
     .filter(Boolean)
-    .join('\n\n')
+    .join(' ')
     .trim()
 }
 
